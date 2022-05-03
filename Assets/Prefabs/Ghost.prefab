@@ -175,7 +175,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 98ea14dfdb9dce74a976520f134fd1a2, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.41
   m_Pitch: 1
   Loop: 1
@@ -234,8 +234,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.032432556
-      value: 0.50216675
+      time: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -1007,29 +1007,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5a8c19d53f82314596d7013318676a5, type: 3}
---- !u!1 &310746728396793435 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4805064876997281961, guid: e5a8c19d53f82314596d7013318676a5,
-    type: 3}
-  m_PrefabInstance: {fileID: 5107358559727103730}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &310746728396793434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4805064876997281960, guid: e5a8c19d53f82314596d7013318676a5,
     type: 3}
   m_PrefabInstance: {fileID: 5107358559727103730}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1186613986693496380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 310746728396793435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 713ddff704589be4daeb72ac27316201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navMeshAgent: {fileID: 0}
-  waypoints: []
